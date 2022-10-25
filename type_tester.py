@@ -1,8 +1,5 @@
-# Typing speed test. Calculates words per minute from 10 randomly chosen words
-# Python 3 
-
-import random
 import time
+import random
 
 with open(r'.\projects\word_list.txt', 'r') as word:
     content = word.read().splitlines()
