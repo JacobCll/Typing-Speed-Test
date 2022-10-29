@@ -1,7 +1,7 @@
 import time
 import random
 
-with open(r'word_list.txt', 'r') as word:
+with open(r'200words.txt', 'r') as word:
     content = word.read().splitlines()
 
 word_list = []
